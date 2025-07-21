@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Links | iLeef Mídia</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #fff;
+      padding: 40px 20px;
+    }
+
+    img {
+      max-width: 120px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 30px;
+    }
+
+    a {
+      display: block;
+      width: 250px;
+      margin: 10px auto;
+      padding: 15px;
+      border-radius: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+      color: white;
+      transition: 0.3s;
+    }
+
+    .fotos { background-color: #e53935; }
+    .fotos:hover { background-color: #c62828; }
+
+    .portfolio { background-color: #212121; }
+    .portfolio:hover { background-color: #000; }
+
+    .whatsapp { background-color: #25d366; }
+    .whatsapp:hover { background-color: #1ebc59; }
+
+    i {
+      margin-right: 8px;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+  <img src="logo.png" alt="Logo" />
+  <h1>Meus Links</h1>
+
+  <a class="fotos" href="https://drive.google.com/drive/folders/1cUuZl9pxBzMKg-EkpwVChBFzFaSGm2aW?usp=drive_link" target="_blank">
+    📸 Fotos
+  </a>
+
+  <a class="portfolio" href="https://www.behance.net/ileef" target="_blank">
+    🎨 Portfólio
+  </a>
+
+  <a class="whatsapp" href="https://wa.me/5574999659695" target="_blank">
+    💬 WhatsApp
+  </a>
+
+</body>
+</html>
